@@ -5,8 +5,8 @@ from geopy.exc import GeocoderServiceError
 geolocator = Nominatim(user_agent="my_geopy_app")
 
 # Latitude & Longitude input
-Latitude = "39.684393"
-Longitude = "-8.519500"
+Latitude = "39.848341"
+Longitude = "-8.670735"
 
 try:
     location = geolocator.reverse(Latitude + "," + Longitude)
