@@ -4,3 +4,4 @@ streamlit==1.42.2
 shapely==2.0.7
 numpy==2.2.3
 geopy==2.4.1
+geopy.geocoders
